@@ -1047,11 +1047,15 @@ button {
 
 }
 
-.social {
+.social{
+    cursor: pointer;
     margin-top: 30px;
     width: 50%;
     display: flex;
     justify-content: space-between;
+}
+.social img{
+    cursor: pointer;
 }
 
 .lastb {
