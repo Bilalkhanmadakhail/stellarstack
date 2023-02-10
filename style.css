@@ -53,10 +53,11 @@ line-height: 48px;
 color: #131821;
 }
 .menu li{
+    cursor: pointer;
     padding:4px 20px;
 }
 button{
-    
+    cursor: pointer;
 /* font-family: 'Futura PT'; */
 font-style: normal;
 font-weight: 500;
@@ -129,6 +130,7 @@ color: #4C586F;
 }
 
 .heading button{
+    cursor: pointer;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -485,14 +487,17 @@ color: #4C586F;
 
 .blue{
    /* padding-top: 80px; */
-   background-image: url("/photos/blue\ scren.png");
-   background-repeat: no-repeat;
+background-image: url("/bluescreen.svg");
+background-repeat: no-repeat;
+
+   border-radius: 24px;
    width: 74%;
 margin:80px auto;
 
 height: 250px;
 }
 .screen{
+    border-radius: 24px;
     display: flex;
     width: 40%;
     margin: 0px auto;
@@ -514,6 +519,7 @@ color: #FFFFFF;
 
 }
 .btn button{
+    cursor: pointer;
     margin-top: 100px;
     display: flex;
 flex-direction: row;
@@ -529,6 +535,7 @@ background: #FFFFFF;
 border-radius: 30px;
 }
 .btn button p{
+    cursor: pointer;
     /* font-family: 'Futura PT'; */
 font-style: normal;
 font-weight: 600;
@@ -645,7 +652,7 @@ height: 60px;
 .photos{
     display: flex;
     margin: auto;
-    width: 68%;
+    width:55%;
     justify-content: space-between;
 }
 /* .boardmain{
@@ -654,7 +661,8 @@ height: 60px;
     wi
 } */
 .board1{
-    width: 350px;
+    width: 352px;
+    height: 586px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -669,13 +677,14 @@ border-radius: 16px;
     line-height: 38px;
     /* identical to box height, or 158% */
     
-    padding-top: 10px;
+    padding-top: 20px;
     /* Black/Base/Black/Title */
     
     color: #131821;
     
 }
 .board1 button{
+    cursor: pointer;
     display: flex;
 flex-direction: row;
 align-items: center;
@@ -689,6 +698,7 @@ height: 50px;
 border-radius: 30px;
 }
 .board1 button p{
+    cursor: pointer;
     display: flex;
     /* font-family: 'Futura PT'; */
 font-style: normal;
@@ -713,7 +723,7 @@ color: #FFFFFF;
     /* identical to box height, or 67% */
     
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     color: #5680E9;
 
 }
@@ -728,7 +738,7 @@ line-height: 32px;
 text-align: center;
 
 /* Black/Base/Black/Title */
-padding-top: 10px;
+padding-top: 30px;
 color: #131821;
 }
 .board1 ul{
@@ -742,7 +752,7 @@ color: #131821;
     line-height: 32px;
     /* or 145% */
     
-    padding-top: 6px;
+    padding-top: 20px;
     color: #4C586F;
 }
 .board2{
@@ -773,7 +783,7 @@ color: #BEE8F8;
     font-size: 48px;
     line-height: 32px;
     /* identical to box height, or 67% */
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
     
     color: #FFFFFF;
@@ -787,7 +797,7 @@ color: #BEE8F8;
     line-height: 32px;
     /* or 145% */
     
-    padding-top: 10px;
+    padding-top: 20px;
     color: #BEE8F8;
 }
 .board2 h2{
@@ -798,12 +808,12 @@ font-weight: 400;
 font-size: 22px;
 line-height: 32px;
 /* or 145% */
-padding-top: 8px;
+padding-top: 30px;
 
 color: #BEE8F8;
 }
 .board2 li{
-    padding-top: 6px;
+    padding: 20px  0px 0px 0px;
 /* font-family: 'Futura PT'; */
 font-style: normal;
 font-weight: 400;
@@ -815,22 +825,25 @@ line-height: 32px;
 color: #BEE8F8;
 }
 .board2 button{
+    cursor: pointer;
+    margin-top: 10px;
     display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 14px 93px;
+padding: 15px 93px;
 gap: 10px;
 
 width: 225px;
 height: 50px;
-margin:20px auto;
+margin:30px auto;
 
 background: #FFFFFF;
 border-radius: 30px;
 
 }
 .board2 button p{
+    cursor: pointer;
     /* font-family: 'Futura PT'; */
 font-style: normal;
 font-weight: 600;
@@ -848,7 +861,7 @@ color: #5680E9;
     px;
     margin:80px auto;
 
-background: linear-gradient(180deg, #FAFAFC 0%, rgba(217, 217, 217, 0) 100%);
+background: linear-gradient(180deg, #e4e4e8 0%, rgba(217, 217, 217, 0) 100%);
 border-radius: 16px;
 
 }
@@ -976,7 +989,9 @@ color: #131821;
 
     /* border: 1px solid black; */
 }
+
 .lastb p{
+    cursor: pointer;
     /* font-family: 'Futura PT'; */
     font-style: normal;
     font-weight: 600;
@@ -993,7 +1008,7 @@ color: #131821;
     
 }
 .lastb span{
-    
+    cursor: pointer;
     /* font-family: 'Futura PT'; */
     font-style: normal;
     font-weight: 400;
@@ -1009,8 +1024,59 @@ color: #131821;
 
 }
 .lastc{
+
     width: 30%;
+    padding-bottom: 37px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+
     /* border: 1px solid black; */
 }
+.lastc span{
+    cursor: pointer;
+    /* font-family: 'Futura PT'; */
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    
+    
+    /* Black/Base/Black/Title */
+    
+    color: #131821;
+
+}
+
+.lastc p{
+    cursor: pointer;
+    /* font-family: 'Futura PT'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    
+    padding-top: 5px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+    
+    
+    /* Black/Base/Black/Title */
+    
+    color: #131821;
+    
+}
+
+
+
+
+@media screen and (max-width:1050px){
+    body{
+        display: none;
+    }
+}
+
 
 
